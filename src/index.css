@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+/* Custom smooth scroll and transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism subtle effects */
+.glass-gold {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(214, 187, 147, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #8E6E3A 0%, #B88E4B 50%, #7A5B27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #C59F5A 0%, #AA8138 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px -2px rgba(170, 129, 56, 0.3);
+}
+
+.gold-gradient-btn:hover {
+  background: linear-gradient(135deg, #B58F4A 0%, #987128 100%);
+  box-shadow: 0 6px 24px -2px rgba(170, 129, 56, 0.4);
+}
+

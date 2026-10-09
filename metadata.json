@@ -1,0 +1,8 @@
+{
+  "name": "Remix Dra. Débora Almeida | Odontologia Estética \u0026 Reabilitação Oral",
+  "description": "Site oficial da Dra. Débora Almeida, cirurgiã-dentista no Empresarial Trade Center em Petrolina - PE. Agendamento direto via WhatsApp, estética dental humanizada, lentes de contato e clareamento.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
