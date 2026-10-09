@@ -1,3 +1,10 @@
+import smileVeneersBefore from '../assets/images/smile_veneers_before_1791560359359.jpg';
+import smileVeneersAfter from '../assets/images/smile_veneers_after_1791560375132.jpg';
+import whiteningBefore from '../assets/images/whitening_before_1791560388341.jpg';
+import whiteningCleanAfter from '../assets/images/whitening_clean_after_1791560467943.jpg';
+import smileResinBefore from '../assets/images/smile_resin_before_1791560417484.jpg';
+import smileResinAfter from '../assets/images/smile_resin_after_1791560433562.jpg';
+
 export interface Specialty {
   id: string;
   title: string;
@@ -280,8 +287,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     beforeLabel: "Antes do Procedimento",
     afterLabel: "Resultado Final (30 dias)",
     badge: "Caso Clínico 01",
-    beforeImage: "/src/assets/images/smile_veneers_before_1791560359359.jpg",
-    afterImage: "/src/assets/images/smile_veneers_after_1791560375132.jpg",
+    beforeImage: smileVeneersBefore,
+    afterImage: smileVeneersAfter,
     beforeDetails: {
       colorTone: "Tom A3 / Desarmônico",
       description: "Desgaste nas bordas incisais, manchas leves e desproporção entre os incisivos centrais e laterais com diastema.",
@@ -302,8 +309,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     beforeLabel: "Antes do Clareamento",
     afterLabel: "Depois do Protocolo",
     badge: "Caso Clínico 02",
-    beforeImage: "/src/assets/images/whitening_before_1791560388341.jpg",
-    afterImage: "/src/assets/images/whitening_clean_after_1791560467943.jpg",
+    beforeImage: whiteningBefore,
+    afterImage: whiteningCleanAfter,
     beforeDetails: {
       colorTone: "Tom A3.5 (Escala VITA)",
       description: "Pigmentação acumulada por anos de consumo diário de café e pigmentos alimentares.",
@@ -324,8 +331,8 @@ export const BEFORE_AFTER_CASES: BeforeAfterCase[] = [
     beforeLabel: "Antes das Facetas",
     afterLabel: "Imediato Pós-Polimento",
     badge: "Caso Clínico 03",
-    beforeImage: "/src/assets/images/smile_resin_before_1791560417484.jpg",
-    afterImage: "/src/assets/images/smile_resin_after_1791560433562.jpg",
+    beforeImage: smileResinBefore,
+    afterImage: smileResinAfter,
     beforeDetails: {
       colorTone: "Dentes curtos e bordas fraturadas",
       description: "Bordas incisais fraturadas e espaços assimétricos gerando sombras nos dentes da frente.",
